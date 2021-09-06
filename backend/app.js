@@ -80,7 +80,7 @@ app.get("/search", async (req, res) => {
     if (data.length === 0) {
       if (state.IS_SCRAPER_RUNNING) {
         return res.send({
-          message: "The server is busy, please try again after a few moment",
+          message: "The server is busy, please try again after a few moments",
           success: false,
         });
       }
@@ -97,7 +97,7 @@ app.post("/scraper", async (req, res) => {
   }
   if (state.IS_SCRAPER_RUNNING) {
     return res.send({
-      message: "The server is busy, please try again after a few moment",
+      message: "The server is busy, please try again after a few moments",
       success: false,
     });
   }
