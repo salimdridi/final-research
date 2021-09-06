@@ -7,7 +7,7 @@ import Pagination from "react-bootstrap/Pagination";
 import Alert from "react-bootstrap/Alert";
 
 const myDomain = "Re-SearchEngine.com";
-const myLocalDomain = "http://localhost:5000";
+const myLocalDomain = "https://final-research.herokuapp.com";
 
 const Results = () => {
   const [results, setResults] = useState([]);
