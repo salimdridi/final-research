@@ -11,7 +11,7 @@ const SearchCard = () => {
           <Form.Control
             type="search"
             name="search"
-            placeholder="Search Research Papers and/or Books!"
+            placeholder="Search Research Papers! (by title)"
           />
           <Button variant="dark" style={{ height: "40px" }} type="submit">
             Search
