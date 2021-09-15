@@ -41,7 +41,7 @@ const Results = () => {
         <Form.Control
           type="search"
           name="search"
-          placeholder="Search Research Papers and/or Books!"
+          placeholder="Search Research Papers and/or Books! (by title or ISBN)"
         />
         <Button variant="dark" style={{ height: "40px" }} type="submit">
           Search
