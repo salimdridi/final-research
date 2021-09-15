@@ -24,7 +24,7 @@ const Header = () => {
     >
       <Wrapper>
         <Navbar.Brand href="/">
-          Re-SearchEngine.com [Research Papers Search Engine]
+          Re-SearchEngine.com [Research Papers (and Books) Search Engine]
         </Navbar.Brand>
         <Navi>
           <Nav.Link href="/about"></Nav.Link>
